@@ -1,0 +1,92 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 1300px;
+	height: 750px;
+	background: gray;
+	margin: 0 auto;
+}
+.menu{}
+ul{
+	margin: 0;
+	padding: 0;
+	background: darkred;
+	overflow: hidden;
+}
+li{
+	list-style: none;
+	float: left;
+}
+a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 10px 20px;
+	display: block;
+	text-transform: uppercase;
+}
+a:hover{
+	background: white;
+	color: black;
+
+}
+
+.main-content{
+	width: 100%;
+	height: 680px;
+}
+.left{
+	width: 70%;
+	height: 680px;
+	background: blue;
+	float: left;
+}
+.one{
+	width: 70%;
+	height: 250px;
+	background: green;
+	float: left;
+}
+.two{
+	width: 30%;
+	height: 250px;
+	background: orange;
+	float: left;
+}
+.three{
+	width: 33.33%;
+	height: 180px;
+	background: purple;
+	float: left;
+}
+
+.right{
+	width: 30%;
+	height: 680px;
+	background: yellow;
+	float: left;
+}
+.four{
+	width: 100%;
+	height: 340px;
+	background: aquamarine;
+	float: left;
+}
+
+.copyright{
+	width: 100%;
+	height: 35px;
+	background: blue;
+	float: left;
+	text-align: center;
+	padding: 10px;
+	display: block;
+	color: white;
+}
+img{
+	max-width: 100%;
+	width: 100%;
+	height: 100%;
+}
